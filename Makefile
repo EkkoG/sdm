@@ -7,17 +7,14 @@ PKG_RELEASE:=1
 include $(INCLUDE_DIR)/package.mk
  
 define Package/sdm
-  SECTION:=base
-  CATEGORY:=Network
-  TITLE:=Ethernet bridging configuration utility
-  #DESCRIPTION:=This variable is obsolete. use the Package/name/description define instead!
+  SECTION:=utils
+  CATEGORY:=Utilities
+  TITLE:=A simple daomon manager
   URL:=http://sdm.sourceforge.net/
 endef
  
 define Package/sdm/description
- Ethernet bridging configuration utility
- Manage ethernet bridging; a way to connect networks together to
- form a larger network.
+ A simple daomon manager
 endef
  
 define Build/Compile
