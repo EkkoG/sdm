@@ -3,7 +3,7 @@ SDM is a simple daemon manager
 
 ## Usage
 
-For example, you can use it to run (mosdns)[https://github.com/ekkog/openwrt-mosdns]
+For example, you can use it to run [mosdns](https://github.com/ekkog/openwrt-mosdns)
 
 Add the following to `/etc/config/sdm`:
 
