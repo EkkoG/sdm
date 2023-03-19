@@ -10,7 +10,7 @@ define Package/sdm
   SECTION:=utils
   CATEGORY:=Utilities
   TITLE:=A simple daomon manager
-  URL:=http://sdm.sourceforge.net/
+  URL:=https://github.com/EkkoG/sdm
 endef
  
 define Package/sdm/description
